@@ -1,0 +1,178 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    height: 69px;
+    width: 100%;
+    background-color: rgb(255, 111, 111);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 13px;
+}
+.navbar-logo {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 12px;
+}
+.brand {
+    height: 65%;
+}
+.hero {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    height: 450px; 
+    width: 1300px;}
+
+.hero__photo {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.hero__photo img {
+    height: 90%;
+    border-radius: 5%;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}   
+
+.hero__text {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;}
+
+.hero__text_button {
+	background-color: rgb(240, 57, 72);
+	height: 3em;
+	width: 175px;
+	color: white;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	border: 0px solid white;
+	border-radius: 3px;
+	font-weight: 600;
+}
+.hero__text h1 {
+    display: flex;
+    flex-direction: column;
+}
+.hero__text .title {
+    color: rgb(240, 57, 72);
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.hero__text .title-dark {
+    color: rgb(238, 89, 44);
+    font-weight: 550;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+	margin-bottom: 10px;
+}
+.hero_contenedores {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-bottom: 4px;
+}
+.hero_text_login {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 300;
+	font-size: large;
+	color: rgb(50, 50, 93);
+	margin-bottom: 4px;
+}
+.foot {
+	height: 50px;
+    width: 100%;
+    background-color: rgb(104, 104, 104);
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    padding: 0px 13px;
+	margin-top: 14px;
+}
+
+.hero__text__bienvenida .title {
+    color: rgb(50, 50, 93);
+    font-weight: 900;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.hero__text__bienvenida {
+    display: flex;
+    flex-direction: column;
+    height: 8em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.display {
+    height: 120px;
+    width: 255px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.display_retiro {
+    height: 120px;
+    width: 255px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.operaciones {
+    height: 155px;
+    width: 255px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.operaciones_button {
+	background-color: rgb(240, 57, 72);
+	height: 3em;
+	width: 175px;
+	color: white;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	border: 0px solid white;
+	border-radius: 3px;
+	font-weight: 600;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./Estilos css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!--Esta es la barra de navegación-->
+        <nav class="navbar" style="z-index: 1;">
+            <section class="navbar-iz">
+                <a class="navbar-logo">
+                    <img class="brand" src="./Img/AtenikiBank_logo_horizontal.png" alt="logo atenikibank horizontal">
+                </a>
+            </section>
+        </nav>
+
+        <header class="hero">
+            <!-- Esta es la imagen del logo con sobreado de lado izquierdo-->
+            <div class="hero__photo">
+                <img src="./Img/AntenikiBank_logo.jpg" alt="logo vertical atenikibank">
+            </div>
+
+            <div>
+                <!-- Persona 1 Collaps login-->
+                <div class="planel-group mt-4 mb-4" id="collapse">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      Persona 1
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Ingresa tus datos</strong>
+                                        <form action="">
+                                            <label class="hero_text_login" for="">Usuario</label>
+                                            <div>
+                                                <input class="hero_contenedores" type="text" name="us" id="user1">
+                                            </div>
+                                            <label class="hero_text_login" for="">Pasword</label>
+                                            <div>
+                                                <input class="hero_contenedores" type="pasword" name="co" id="">
+                                            </div>
+                                            <input class="hero__text_button" type="button" value="ingresar"
+                                                onclick="login1(this.form)">
+                                        </form>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Persona 2
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Ingresa tus datos</strong>
+                                        <form action="">
+                                            <label class="hero_text_login" for="">Usuario</label>
+                                            <div>
+                                                <input class="hero_contenedores" type="text" name="us" id="user2">
+                                            </div>
+                                            <label class="hero_text_login" for="">Pasword</label>
+                                            <div>
+                                                <input class="hero_contenedores" type="pasword" name="co" id="">
+                                            </div>
+                                            <input class="hero__text_button" type="button" value="ingresar"
+                                                onclick="login2(this.form)">
+                                        </form>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Persona 3
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Ingresa tus datos</strong>
+                                        <form action="">
+                                            <label class="hero_text_login" for="">Usuario</label>
+                                            <div>
+                                                <input class="hero_contenedores" type="text" name="us" id="user3">
+                                            </div>
+                                            <label class="hero_text_login" for="">Pasword</label>
+                                            <div>
+                                                <input class="hero_contenedores" type="pasword" name="co" id="">
+                                            </div>
+                                            <input class="hero__text_button" type="button" value="ingresar"
+                                                onclick="login3(this.form)">
+                                        </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                          
+                  </div>
+              </div>
+                
+                </div>
+            </div>
+        </header>
+    </main>
+    <footer>
+        <div class="foot">
+            <div style="z-index: 1;">
+                <span>Todos los derechos reservados</span>
+            </div>
+        </div>
+    </footer>
+    <script src="cajero.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
